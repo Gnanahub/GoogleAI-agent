@@ -1,1 +1,19 @@
-
+📦 supplychain-llm-pipeline
+│
+├── README.md
+├── requirements.txt
+│
+├── main.py
+│
+├── agents/
+│   ├── extractor_agent.py
+│   ├── error_detector.py
+│   ├── llm_agent.py
+│   ├── auto_fix.py
+│
+├── utils/
+│   ├── pdf_report.py
+│   ├── audit_logger.py
+│
+└── data/
+    └── sample_input.pdf (optional)
